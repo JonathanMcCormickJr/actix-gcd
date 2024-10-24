@@ -1,0 +1,9 @@
+[package]
+name = "actix-gcd"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jonathan McCormick, Jr.", "The authors of 'Programming Rust, Second Edition': Blandy, Orendorff, Tindall (O'Reilly)", "ChatGPT 4o"]
+
+[dependencies]
+actix-web = "4"
+serde = { version = "1.0", features = ["derive"] }
